@@ -1,0 +1,15 @@
+.chat-inner {
+	overflow-y: scroll;
+	&::-webkit-scrollbar-track {
+		background: #88888888;
+	}
+	&::-webkit-scrollbar-thumb {
+		background: #888888cc;
+	}
+	&::-webkit-scrollbar {
+		width: 8px;
+	}
+	&::-webkit-scrollbar-thumb:hover {
+		background: #888888;
+	}
+}
